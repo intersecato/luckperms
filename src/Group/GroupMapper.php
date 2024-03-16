@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\Group;
+namespace LuckPermsAPI\Group;
 
-use LuckPerms\Contracts\Mapper;
+use LuckPermsAPI\Contracts\Mapper;
 
 class GroupMapper implements Mapper
 {

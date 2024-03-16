@@ -1,9 +1,9 @@
 <?php
 
-namespace LuckPerms\Node;
+namespace LuckPermsAPI\Node;
 
-use LuckPerms\Contracts\Mapper;
-use LuckPerms\Exception\InvalidNodeTypeException;
+use LuckPermsAPI\Contracts\Mapper;
+use LuckPermsAPI\Exception\InvalidNodeTypeException;
 
 class NodeMapper implements Mapper
 {

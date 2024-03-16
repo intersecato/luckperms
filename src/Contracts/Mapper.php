@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Contracts;
+namespace LuckPermsAPI\Contracts;
 
 interface Mapper
 {

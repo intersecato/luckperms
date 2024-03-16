@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\Context;
+namespace LuckPermsAPI\Context;
 
-use LuckPerms\Contracts\Mapper;
+use LuckPermsAPI\Contracts\Mapper;
 
 class ContextMapper implements Mapper
 {

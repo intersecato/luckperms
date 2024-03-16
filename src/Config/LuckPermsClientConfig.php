@@ -1,10 +1,12 @@
 <?php
 
-namespace LuckPerms\Config;
+namespace LuckPermsAPI\Config;
 
 class LuckPermsClientConfig
 {
-    public function __construct(readonly string $baseUri, readonly string $apiKey)
-    {
+    public function __construct(
+        readonly string $baseUri,
+        readonly string $apiKey,
+    ) {
     }
 }

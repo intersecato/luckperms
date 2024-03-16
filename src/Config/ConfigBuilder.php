@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Config;
+namespace LuckPermsAPI\Config;
 
 class ConfigBuilder
 {

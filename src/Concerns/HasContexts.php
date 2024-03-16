@@ -1,10 +1,10 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Context\Context;
-use LuckPerms\Context\ContextMapper;
+use LuckPermsAPI\Context\Context;
+use LuckPermsAPI\Context\ContextMapper;
 
 trait HasContexts
 {

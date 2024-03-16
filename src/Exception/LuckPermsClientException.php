@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Exception;
+namespace LuckPermsAPI\Exception;
 
 use Exception;
 

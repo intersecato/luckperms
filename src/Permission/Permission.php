@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\Permission;
+namespace LuckPermsAPI\Permission;
 
-use LuckPerms\Concerns\HasContexts;
+use LuckPermsAPI\Concerns\HasContexts;
 
 class Permission
 {
@@ -11,8 +11,11 @@ class Permission
     private string $name;
     private string $value;
 
-    public function __construct(string $name, string $value, array $contexts,)
-    {
+    public function __construct(
+        string $name,
+        string $value,
+        array $contexts,
+    ) {
         $this->name = $name;
         $this->value = $value;
         $this->contexts = $contexts;

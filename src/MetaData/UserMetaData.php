@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\MetaData;
+namespace LuckPermsAPI\MetaData;
 
 use Illuminate\Support\Collection;
 

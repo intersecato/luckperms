@@ -1,12 +1,12 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Group\Group;
-use LuckPerms\Group\GroupMapper;
-use LuckPerms\Node\Node;
-use LuckPerms\Node\NodeType;
+use LuckPermsAPI\Group\Group;
+use LuckPermsAPI\Group\GroupMapper;
+use LuckPermsAPI\Node\Node;
+use LuckPermsAPI\Node\NodeType;
 
 trait HasGroups
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LuckPerms\Group;
+namespace LuckPermsAPI\Group;
 
-use LuckPerms\Concerns\HasMetaData;
-use LuckPerms\Concerns\HasNodes;
-use LuckPerms\Concerns\HasPermissions;
+use LuckPermsAPI\Concerns\HasMetaData;
+use LuckPermsAPI\Concerns\HasNodes;
+use LuckPermsAPI\Concerns\HasPermissions;
 
 class Group
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
-use LuckPerms\MetaData\MetaData;
-use LuckPerms\MetaData\MetaDataMapper;
+use LuckPermsAPI\MetaData\MetaData;
+use LuckPermsAPI\MetaData\MetaDataMapper;
 
 trait HasMetaData
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace LuckPerms\Group;
+namespace LuckPermsAPI\Group;
 
-use LuckPerms\Concerns\HasContexts;
-use LuckPerms\Concerns\HasExpiry;
+use LuckPermsAPI\Concerns\HasContexts;
+use LuckPermsAPI\Concerns\HasExpiry;
 
 class UserGroup extends Group
 {

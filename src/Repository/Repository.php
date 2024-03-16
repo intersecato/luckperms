@@ -1,9 +1,9 @@
 <?php
 
-namespace LuckPerms\Repository;
+namespace LuckPermsAPI\Repository;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Session;
+use LuckPermsAPI\Session;
 
 /**
  * @template T

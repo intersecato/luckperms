@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\User;
+namespace LuckPermsAPI\User;
 
-use LuckPerms\Contracts\Mapper;
+use LuckPermsAPI\Contracts\Mapper;
 
 class UserMapper implements Mapper
 {

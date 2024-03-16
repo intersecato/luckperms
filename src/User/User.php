@@ -1,11 +1,11 @@
 <?php
 
-namespace LuckPerms\User;
+namespace LuckPermsAPI\User;
 
-use LuckPerms\Concerns\HasNodes;
-use LuckPerms\Concerns\HasPermissions;
-use LuckPerms\Concerns\HasUserGroups;
-use LuckPerms\Concerns\HasUserMetaData;
+use LuckPermsAPI\Concerns\HasNodes;
+use LuckPermsAPI\Concerns\HasPermissions;
+use LuckPermsAPI\Concerns\HasUserGroups;
+use LuckPermsAPI\Concerns\HasUserMetaData;
 
 class User
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace LuckPerms\Node;
+namespace LuckPermsAPI\Node;
 
 use Illuminate\Contracts\Support\Arrayable;
-use LuckPerms\Concerns\HasContexts;
-use LuckPerms\Concerns\HasExpiry;
+use LuckPermsAPI\Concerns\HasContexts;
+use LuckPermsAPI\Concerns\HasExpiry;
 
 class Node implements Arrayable
 {

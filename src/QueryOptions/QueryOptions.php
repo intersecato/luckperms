@@ -1,9 +1,9 @@
 <?php
 
-namespace LuckPerms\QueryOptions;
+namespace LuckPermsAPI\QueryOptions;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Context\Context;
+use LuckPermsAPI\Context\Context;
 
 class QueryOptions
 {

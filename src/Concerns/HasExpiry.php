@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
 trait HasExpiry
 {

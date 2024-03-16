@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\Permission;
+namespace LuckPermsAPI\Permission;
 
-use LuckPerms\Node\Node;
+use LuckPermsAPI\Node\Node;
 
 class PermissionCheckResult
 {

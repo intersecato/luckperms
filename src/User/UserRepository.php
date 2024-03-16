@@ -1,11 +1,11 @@
 <?php
 
-namespace LuckPerms\User;
+namespace LuckPermsAPI\User;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Exception\UserNotFoundException;
-use LuckPerms\Repository\Repository;
-use LuckPerms\Repository\Search;
+use LuckPermsAPI\Exception\UserNotFoundException;
+use LuckPermsAPI\Repository\Repository;
+use LuckPermsAPI\Repository\Search;
 
 class UserRepository extends Repository
 {

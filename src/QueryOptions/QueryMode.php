@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\QueryOptions;
+namespace LuckPermsAPI\QueryOptions;
 
 enum QueryMode: string
 {

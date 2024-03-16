@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Context;
+namespace LuckPermsAPI\Context;
 
 class Context
 {

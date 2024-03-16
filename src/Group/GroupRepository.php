@@ -1,11 +1,11 @@
 <?php
 
-namespace LuckPerms\Group;
+namespace LuckPermsAPI\Group;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Exception\GroupNotFoundException;
-use LuckPerms\Repository\Repository;
-use LuckPerms\Repository\Search;
+use LuckPermsAPI\Exception\GroupNotFoundException;
+use LuckPermsAPI\Repository\Repository;
+use LuckPermsAPI\Repository\Search;
 
 class GroupRepository extends Repository
 {

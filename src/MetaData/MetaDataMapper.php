@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\MetaData;
+namespace LuckPermsAPI\MetaData;
 
-use LuckPerms\Contracts\Mapper;
+use LuckPermsAPI\Contracts\Mapper;
 
 class MetaDataMapper implements Mapper
 {

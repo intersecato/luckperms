@@ -1,8 +1,8 @@
 <?php
 
-namespace LuckPerms\Repository;
+namespace LuckPermsAPI\Repository;
 
-use LuckPerms\Node\NodeType;
+use LuckPermsAPI\Node\NodeType;
 
 class Search
 {

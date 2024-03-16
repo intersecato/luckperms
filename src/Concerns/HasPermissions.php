@@ -1,19 +1,19 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
 use Illuminate\Support\Collection;
 use InvalidArgumentException;
-use LuckPerms\Group\Group;
-use LuckPerms\LuckPermsClient;
-use LuckPerms\Node\Node;
-use LuckPerms\Node\NodeMapper;
-use LuckPerms\Node\NodeType;
-use LuckPerms\Permission\Permission;
-use LuckPerms\Permission\PermissionCheckResult;
-use LuckPerms\Permission\PermissionMapper;
-use LuckPerms\QueryOptions\QueryOptions;
-use LuckPerms\User\User;
+use LuckPermsAPI\Group\Group;
+use LuckPermsAPI\LuckPermsClient;
+use LuckPermsAPI\Node\Node;
+use LuckPermsAPI\Node\NodeMapper;
+use LuckPermsAPI\Node\NodeType;
+use LuckPermsAPI\Permission\Permission;
+use LuckPermsAPI\Permission\PermissionCheckResult;
+use LuckPermsAPI\Permission\PermissionMapper;
+use LuckPermsAPI\QueryOptions\QueryOptions;
+use LuckPermsAPI\User\User;
 
 trait HasPermissions
 {

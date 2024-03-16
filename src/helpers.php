@@ -1,6 +1,6 @@
 <?php
 
-use LuckPerms\LuckPermsClient;
+use LuckPermsAPI\LuckPermsClient;
 
 if (!function_exists('resolve')) {
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace LuckPerms\Node;
+namespace LuckPermsAPI\Node;
 
 enum NodeType: string
 {

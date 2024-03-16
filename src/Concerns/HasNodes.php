@@ -1,10 +1,10 @@
 <?php
 
-namespace LuckPerms\Concerns;
+namespace LuckPermsAPI\Concerns;
 
 use Illuminate\Support\Collection;
-use LuckPerms\Node\Node;
-use LuckPerms\Node\NodeMapper;
+use LuckPermsAPI\Node\Node;
+use LuckPermsAPI\Node\NodeMapper;
 
 trait HasNodes
 {

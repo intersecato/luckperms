@@ -1,10 +1,10 @@
 <?php
 
-namespace LuckPerms;
+namespace LuckPermsAPI;
 
 use GuzzleHttp\Client as HttpClient;
-use LuckPerms\Group\GroupRepository;
-use LuckPerms\User\UserRepository;
+use LuckPermsAPI\Group\GroupRepository;
+use LuckPermsAPI\User\UserRepository;
 
 class Session
 {

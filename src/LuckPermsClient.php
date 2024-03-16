@@ -1,11 +1,11 @@
 <?php
 
-namespace LuckPerms;
+namespace LuckPermsAPI;
 
 use GuzzleHttp\Client as HttpClient;
 use Illuminate\Container\Container;
-use LuckPerms\Config\LuckPermsClientConfig;
-use LuckPerms\Exception\ClientNotInitiatedException;
+use LuckPermsAPI\Config\LuckPermsClientConfig;
+use LuckPermsAPI\Exception\ClientNotInitiatedException;
 
 class LuckPermsClient
 {
