@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "LuckPerms\\": "src/"
+      "LuckPermsAPI\\": "src/"
     },
     "files": [
       "src/helpers.php"
