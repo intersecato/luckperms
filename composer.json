@@ -19,5 +19,13 @@
     "symfony/var-dumper": "6.4.4",
     "phpstan/phpstan": "1.10.62",
     "phpunit/phpunit": "9.6.17"
+  },
+  "autoload": {
+    "psr-4": {
+      "LuckPerms\\": "src/"
+    },
+    "files": [
+      "src/helpers.php"
+    ]
   }
 }
