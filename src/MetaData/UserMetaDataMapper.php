@@ -1,0 +1,18 @@
+<?php
+
+namespace LuckPerms\MetaData;
+
+use LuckPerms\Contracts\Mapper;
+
+class UserMetaDataMapper implements Mapper
+{
+    public function map(array $data): UserMetaData
+    {
+        return new UserMetaData(
+            $data['prefix'],
+            $data['suffix'],
+            $data['primaryGroup'],
+            collect($data['meta']),
+        );
+    }
+}

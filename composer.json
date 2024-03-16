@@ -1,0 +1,23 @@
+{
+  "name": "intersecato/luckperms",
+  "description": "Libreria PHP per le REST API di LuckPerms",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "intersecato",
+      "email": "business@intersecato.it"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "7.8.1",
+    "illuminate/collections": "9.52.16",
+    "illuminate/container": "9.52.16"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "symfony/var-dumper": "6.4.4",
+    "phpstan/phpstan": "1.10.62",
+    "phpunit/phpunit": "9.6.17"
+  }
+}
