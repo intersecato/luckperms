@@ -72,7 +72,7 @@ trait HasPermissions
 
         $identifier = $this->identifier();
 
-        return "/{$prefix}/{$identifier}/permissionCheck";
+        return "/{$prefix}/{$identifier}/permission-check";
     }
 
     private function identifierMethod(): string
